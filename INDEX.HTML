@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>vivek</h1>
+  <!-- Scrolling welcome line -->
+  <marquee behavior="scroll" direction="left" style="background-color: #0077cc; color: white; padding: 10px; font-size: 18px;">
+    🌤️ Welcome to the Weather App! Enter a city name to get current weather updates. ☁️
+  </marquee>
+
+  <div class="container">
+    <h1>Weather App</h1>
+    <input type="text" id="locationInput" placeholder="Enter location" />
+    <button onclick="getWeather()">Get Weather</button>
+    <div id="weatherResult"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
