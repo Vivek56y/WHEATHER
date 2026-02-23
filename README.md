@@ -12,8 +12,7 @@ This is a responsive and user-friendly **Weather App** that allows users to get 
 
 ## 📸 Demo
 
-![weather demo screenshot](your-screenshot-link-here)
-
+[![Weather App Demo](your-screenshot-link-here)](https://wheather-mocha.vercel.app/)
 ## 🛠 Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
